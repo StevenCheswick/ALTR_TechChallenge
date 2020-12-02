@@ -35,6 +35,6 @@ select * from persons;
 
 ---Future Additions---
 
-I would have liked to use MockMVC and Mockito frameworks to use Mock Objects simulate the behaviour of the real objects,
+I would have liked to have used MockMVC and Mockito frameworks to test with Mock Objects to simulate the behaviour of the real objects,
 however I ran into maven and Springboot issues setting up the dependencies and was not able to get the frameworks
-into my project.
+into my project, however fo any future version these are testing tools I would likely use for a similar project.
