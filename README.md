@@ -1,4 +1,5 @@
 ---MYSQL SETUP---
+
 "You just need to have docker installed and run the following commands below in order to set up the MYSQL DB
 may need to wait a couple of minutes for the database to be created and docker to install mysql 
 as well as giving the create database command time as well to finish completeing before moving onto next steps"
@@ -33,6 +34,7 @@ INSERT INTO persons (first_name,last_name) Values ("Fred","Flinstone");
 select * from persons;
 
 ---Future Additions---
+
 I would have liked to use MockMVC and Mockito frameworks to use Mock Objects simulate the behaviour of the real objects,
 however I ran into maven and Springboot issues setting up the dependencies and was not able to get the frameworks
 into my project.
