@@ -49,9 +49,7 @@ public class AltrApplicationTest {
     void validateListPersonsTest() throws Exception {
         //Tests to see that if for a set seed the listPersons() method returns the expected values from the SQL table
         service.setsSeed(1);
-        String expected = "[1 Steven Cheswick, 2 Steven Cheswick, 3 Steven Cheswick, " +
-                "4 Steven Cheswick, 5 Steven Cheswick, 6 Steven Cheswick, 7 Steven Cheswick," +
-                " 8 Steven Cheswick, 9 Steven Cheswick, 10 Steven Cheswick]";
+        String expected = "[1 Steven Cheswick, 2 John Smith, 3 Jack Brown, 4 Tyler Jones, 5 Mike Strat, 6 Austin Washington, 7 Hunter Placks, 8 Chance Thomas, 9 Mark Ruffalo, 10 Scooby Doo]";
 
         Assertions.assertEquals(expected, service.listPersons().toString());
     }
